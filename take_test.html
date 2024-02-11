@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GradeGroove</title>
+  <style>
+    body{
+        background-color: rgb(173, 168, 168);
+        color:black;
+        font-family: roboto;
+        font-size: 30px;
+        font-weight:500px;
+    }
+
+    input[type="submit"] {
+        background-color: rgb(92, 12, 12);
+        width: 100px; /* Set the width as needed */
+        height: 40px; /* Set the height as needed */
+        padding: 10px; /* Add padding for better appearance */
+        font-size: 20px; /* Adjust font size as needed */
+        font-family: 'Courier New', Courier, monospace;
+        color:white;
+        align-items: center;
+      }
+
+  </style>
+  </head>
+  <body>
+    <h1 style="color: rgb(55, 13, 13); font-family: lato; font-size:75px; text-align: center"> !!Analyze your mood 😉!!</h1>
+    <h2 style="font-family:'Courier New', Courier, monospace">Physics</h2>
+    <form action="submit_answers.php" method="get">
+        <div class="physics">
+        <h4>1. When a pentavalent impurity is added to a pure semiconductor, it becomes:</h4>
+        <input type="radio" name="p_question1" value="a"> insulator<br>
+        <input type="radio" name="p_question1" value="b"> n-type<br>
+        <input type="radio" name="p_question1" value="c"> p-type<br>
+        <input type="radio" name="p_question1" value="d"> intrinsic<br>
+
+        <h4>2. When a pure semiconductor is heated, its resistance:</h4>
+        <input type="radio" name="p_question2" value="a"> increases<br>
+        <input type="radio" name="p_question2" value="b"> decreases<br>
+        <input type="radio" name="p_question2" value="c"> can't say<br>
+        <input type="radio" name="p_question2" value="d"> constant<br>
+
+        <h4>3. A semiconductor has ………… temperature coefficient of resistance:</h4>
+        <input type="radio" name="p_question3" value="a"> positive<br>
+        <input type="radio" name="p_question3" value="b"> negative<br>
+        <input type="radio" name="p_question3" value="c"> zero<br>
+        <input type="radio" name="p_question3" value="d"> none of these<br> </div>
+
+
+
+        <br>
+        <br>
+
+        <h2 style="font-family:'Courier New', Courier, monospace">Data Science 2</h2>
+        <div class="datascience">
+            <h4>1. Two unbiased coins are tossed. What is the probability of getting at most one head?</h4>
+            <input type="radio" name="d_question1" value="a"> 0.75<br>
+            <input type="radio" name="d_question1" value="b"> 0.5<br>
+            <input type="radio" name="d_question1" value="c"> 0.3<br>
+            <input type="radio" name="d_question1" value="d"> 0.4<br>
+    
+            <h4>2. What’s the probability of drawing a red card or a card with a face (king, queen, or jack) from a standard deck of 52 cards?</h4>
+            <input type="radio" name="d_question2" value="a"> 8/13<br>
+            <input type="radio" name="d_question2" value="b"> 5/12<br>
+            <input type="radio" name="d_question2" value="c"> 6/7<br>
+            <input type="radio" name="d_question2" value="d"> 9/10<br>
+    
+            <h4>3. What will be the value of P(not E) if P(E) = 0.07?</h4>
+            <input type="radio" name="d_question3" value="a"> 0.93<br>
+            <input type="radio" name="d_question3" value="b"> 0.50<br>
+            <input type="radio" name="d_question3" value="c"> 0.67<br>
+            <input type="radio" name="d_question3" value="d"> none of these<br> </div>
+
+        <br>
+        <input type="submit" value="Submit">
+    </form>
+
+
+    
+  </body>
+  </html>
