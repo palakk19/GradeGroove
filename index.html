@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GradeGroove</title>
+  <style>
+    
+    
+    @keyframes fadeIn {
+        from {
+          opacity: 0; /* Start with opacity 0 */
+          transform: translateY(-40px); /* Move text up slightly */
+        }
+        to {
+          opacity: 1; /* End with opacity 1 */
+          transform: translateY(0); /* Bring text back to its original position */
+        }
+    }
+    footer{
+        text-align: center;
+    }
+    
+    
+
+    body {
+    
+      background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRgCrWJCZLVJmjJue7y7ROl4D9D7C_zVS0WCtRQuoz5Fg&s");
+      background-size: cover;
+      background-position: center top; 
+      background-repeat: no-repeat; 
+      height: 50vh;
+    }
+
+    .hyper {
+      padding: 15px;
+      background-color: black;
+      color: #FFFFFF;
+      font-family: sans-serif;
+      font-size: 40px;
+      font-weight: 100;
+      opacity: 1;
+    }
+
+    .hyper a {
+      color: #FFFFFF;
+      text-decoration: none;
+      padding: 0 20px;
+      font-size: 30px;
+      text-align: left;
+    }
+
+    .heading {
+      padding: 25px;
+      color: #FFFFFF;
+      margin-top: 50px;
+      margin-bottom: 0px;
+      text-shadow: 
+        -5px -5px 0 rgb(209, 25, 56),
+        5px -5px 0 rgb(200, 29, 58),
+        -5px 5px 0 rgb(209, 36, 65),
+        5px 5px 0 rgb(209, 39, 67);
+      font-family: montserrat;
+      font-size: 45px;
+      font-weight: 100;
+      text-align: center;
+      opacity: 1;
+      animation: fadeIn 1s ease forwards;
+    }
+
+    .content {
+      color: #000000;
+      white-space: pre-wrap;
+      margin-top: 0%;
+      font-family: roboto;
+      font-size: 45px;
+      font-weight: 700;
+      text-align: center;
+      opacity: 1;
+    }
+
+    .gif-and-text-container {
+      display: flex;
+      align-items: flex-start; /* Align items to the start of the container */
+      margin-top: 20px;
+      padding-left: 20px;
+    }
+
+    .gif-container img {
+      max-width: 100%;
+      height: 500px;
+    }
+
+    .c {
+      color: #d61010;
+      white-space: pre-wrap;
+      font-family: 'Montserrat', sans-serif;
+      font-size: 40px;
+      font-weight: 700;
+      text-align: center;
+      opacity: 1;
+      margin-left: 20px;
+    }
+
+    .button-container {
+      text-align: center;
+      margin-top: 0%; /* Adjusted margin-top */
+    }
+
+    .take-test-button {
+      display: inline-block;
+      padding: 15px 30px;
+      background-color: #d61010;
+      color: #ffffff;
+      font-size: 20px;
+      text-decoration: none;
+      border-radius: 5px;
+      transition: background-color 0.3s ease;
+      margin-top: 0px; /* Adjusted margin-top */
+    }
+
+    .take-test-button:hover {
+      background-color: #aa0000;
+    }
+
+    .container {
+        text-align: center;
+        margin-top: 50px;
+      }
+      .center-image {
+        display: block;
+        margin: 0 auto;
+        width: auto;
+        max-width: 250px;
+        
+      }
+      .center-text {
+        margin-top: 20px;
+        font-size: 20px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      }
+      input[type="text"] {
+        width: 300px; /* Set the width as needed */
+        height: 100px; /* Set the height as needed */
+        padding: 10px; /* Add padding for better appearance */
+        font-size: 16px; /* Adjust font size as needed */
+      }
+      input[type="submit"] {
+        background-color: rgb(12, 12, 92);
+        width: 100px; /* Set the width as needed */
+        height: 40px; /* Set the height as needed */
+        padding: 10px; /* Add padding for better appearance */
+        font-size: 20px; /* Adjust font size as needed */
+        font-family: 'Courier New', Courier, monospace;
+        color:white;
+      }
+
+      .h {
+        padding: 6px;
+        background-color: black;
+        color: #FFFFFF;
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 8px;
+        
+        opacity: 1;
+      }
+  
+      .h a {
+        color: #FFFFFF;
+        text-decoration: none;
+        padding: 0 20px;
+        font-size: 30px;
+        
+        text-align: center;
+      }
+  </style>
+</head>
+<body>
+  <div class="hyper">
+    <a href="index.html">Home </a>
+    <a href="page1.html">Courses</a>
+    <a href="page1.html">Leaderboard</a>
+    <a href="https://lms.iitmandi.ac.in/calendar/view.php?view=month">Due Assignments</a>
+  </div>
+
+  <div class="heading">
+    <h1>Your Education, Your Way!</h1> 
+  </div>
+
+  <div class="content">
+    <p>
+        “Kaha se padhe, just scrolling, par fir bhi kuch na found, 
+        syllabus toh hai unbound, don’t worry 
+        just come around GradeGroove, your cg is safe and sound…”
+    </p>  
+  </div>
+
+  <!-- Wrap the GIF and text in a container -->
+  <div class="gif-and-text-container">
+    <div class="gif-container">
+      <img src="https://i.pinimg.com/originals/e4/47/ef/e447ef0dfa54d13ad6aafaba565358c5.gif" alt="Image Description">
+    </div>
+    <!-- Your existing class "c" -->
+    <div class="c">
+      <p>   Can't decide what to study. Take a
+         simple test to analyze 
+         your mood and get suggestions.</p>
+         <div class="button-container">
+            <a href="take_test.html" class="take-test-button">Take Test</a>
+          </div>
+    </div>
+  </div>
+  <br>
+  <br>
+
+  <div class="container">
+    <img src="Screenshot 2024-02-11 121105.png" alt="Image Description" class="center-image">
+    <div class="center-text">
+      <h2>Your feedback is important!</h2></div>
+      <form action="/submit-feedback" method="post">
+        
+        <input type="text" id="feedback" name="feedback" placeholder="Enter your feedback here..." required><br><br>
+        <input type="submit" value="Submit">
+      </form>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+  <footer>
+    <div class="h">
+        <p>        </p>
+        <a href="https://www.linkedin.com/in/palak-choudhary-88579527b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">@palak choudhary </a>
+        <a href="page.html">@bhavya sonkari</a>
+        <a href="page.html">@ananya gawade</a>
+        <a href="page.html">@vedhee channey</a>
+        
+        
+        
+      </div>
+      <br>
+      <p>2024 - GradeGroove. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
